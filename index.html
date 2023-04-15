@@ -581,6 +581,26 @@
 </div>
 </section>
 
+
+  <div class="modal  modal-sm fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content bg-black">
+          <div class="modal-header text-center">
+            <h1 class="modal-title fs-5 w-100" id="exampleModalLabel"></h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <h1 class="text-white">Hello&#x1F609;</h1>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
    
     
   
@@ -598,6 +618,13 @@ boxes.scrollLeft -= 140;
 right.addEventListener('click', () => {
 boxes.scrollLeft += 140;
 });
+
+ const myModal = new bootstrap.Modal('#exampleModal');
+
+      window.addEventListener('DOMContentLoaded', () => {
+        myModal.show();
+
+      });
 
 </script>
   
