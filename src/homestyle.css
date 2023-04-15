@@ -302,25 +302,30 @@ background-color: orange;
 @media (min-width:370px){
   .carosal_slide{
     margin-top: 20%;
+    transition: .3s;
   }
 }
 @media (min-width:550px){
   .carosal_slide{
     margin-top: 10%;
+    transition: .3s;
   }
 }
 @media (min-width:800px){
   .carosal_slide{
     margin-top: 8%;
+    transition: .3s;
   }
 }
 @media (min-width:1200px){
   .carosal_slide{
     margin-top: 6%;
+    transition: .3s;
   }
 }
 @media (min-width:1500px){
   .carosal_slide{
     margin-top: 5%;
+    transition: .3s;
   }
 }
