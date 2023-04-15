@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Website</title>
+    <link rel="stylesheet" href="./src/homestyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+</head>
+<body>
+
+  <!-- navbar  -->
+
+    <nav class="navbar navbar-expand-lg justify-content-around fixed-top  py-1 px-5  navbar-fixed-top navbar-inverse">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold fs-3" href="#" ><img src="./public/images/site_logo.png" class="me-3" width="60" height="60" alt="">SHOP</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  mb-2 mb-lg-0">
+              <li class="nav-item me-3">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link active" aria-current="page" href="#">Discount</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link active" aria-current="page" href="#">Shop</a>
+              </li>
+              <li class="nav-item me-3">
+                <div class="dropdown">
+                  <div class="d-flex">
+                    <a aria-current="page" href="#" class="nav-link active">Mens</a>
+                  <i class='bx bx-caret-down pt-3'></i>
+                  </div>
+                  
+                  <div class="dropdown-content">
+                    <a href="#">Jackets</a>
+                    <a href="#">Jeans</a>
+                    <a href="#">Shoes</a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item me-3">
+                <div class="dropdown">
+                  <div class="d-flex">
+                    <a aria-current="page" href="#" class="nav-link active">Womens</a>
+                  <i class='bx bx-caret-down pt-3'></i>
+                  </div>
+                  
+                  <div class="dropdown-content">
+                    <a href="#">Lehenga</a>
+                    <a href="#">Trending</a>
+                    <a href="#">Kurtas</a>
+                  </div>
+                </div>
+              </li>
+              
+             
+              <li class="nav-item me-3 d-flex">
+                
+               
+                <a class="nav-link active me-1" aria-current="page" href="#"> <i class='bx bxs-shopping-bag-alt fs-3'></i></a>
+                <a class="nav-link active me-3" aria-current="page" href="#"> <i class='bx bx-search-alt fs-3'></i></a>
+               <button class="btn btn-danger">Contact</button>
+              </li>         
+              
+            </ul>
+            
+        
+        </div>
+      </nav>
+
+      <!-- carousal start -->
+
+
+
+     <section class="carosal_slide">
+      <div class="carousel slide carousel-dark" id="banner" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1000">
+                <img src="./public/images/1-slide.jpg" class="w-100 d-block">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./public/images/2-slide.jpg" class="w-100 d-block">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./public/images/3-slide.jpg" class="w-100 d-block">
+            </div>
+        </div>
+        <button data-bs-slide="prev" data-bs-target="#banner" class="carousel-control-prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button data-bs-slide="next" data-bs-target="#banner" class="carousel-control-next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+     
+    </div>
+  </section>
+
+
+        <!-- Logos section start -->
+
+
+
+  <div class="photos text-center pt-5 w-100">
+    <img src="./public/images/adidas.png" alt="">
+    <img src="./public/images/fifa.png" alt="">
+    <img src="./public/images/polo.png" alt="">
+    <img src="./public/images/levis.png" alt="">
+    <img src="./public/images/reebok.png" alt="">
+    <img src="./public/images/nike.png" alt="">
+  </div>
+
+
+
+  
+  <!-- section new start -->
+
+
+
+  <section id="new" class="w-100 pt-5">
+    <div class="row p-0 m-0 w-100">
+      <div class="one col-lg-4 col-md-12 col-12 p-0">
+        <img src="./public/images/new-1.jpg" class="img-fluid" alt="">
+        <div class="details text-center">
+          <h2>Womens</h2>
+          <button>Shop</button>
+        </div>
+      </div>
+      <div class="one col-lg-4 col-md-12 col-12 p-0">
+        <img src="./public/images/new-2.jpg" class="img-fluid" height="100" alt="">
+        <div class="details text-center">
+          <h2>Mens</h2>
+          <button>Shop</button>
+        </div>
+      </div>
+      <div class="one col-lg-4 col-md-12 col-12 p-0">
+        <img src="./public/images/new-3.jpg" height="100" class="img-fluid" alt="">
+        <div class="details text-center">
+          <h2>Winters</h2>
+         
+          <button>Shop</button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <!-- featured section starts -->
+
+
+
+<section id="featured" class="my-5 pb-5">
+  <div class="container text-center mt-5 py-3">
+    <h3>Our Feactured</h3>
+    <hr class="hr_4 mx-auto">
+    <p>Here you can check our new products with fair price of shop.</p>
+  </div>
+<div class="row mx-auto container-fluid">
+  <div class="products text-center col-lg-3 col-md-4 col-12 pb-5">
+    <img src="./public/images/featured-2.jpg" class="img-fluid mb-4"  alt="">
+    <div class="star ">
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+
+    </div>
+    <h5>Sports Boots</h5>
+    <h4>$92.00</h4>
+    <button class="buy-btn" id="buy_btn">Buy Now</button>
+  </div>
+  <div class="products text-center col-lg-3 col-md-4 col-12 pb-5">
+    <img src="./public/images/featured-3.jpg" class="img-fluid mb-4"  alt="">
+    <div class="star">
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+
+    </div>
+    <h5>Sports Boots</h5>
+    <h4>$92.00</h4>
+    <button class="buy-btn" id="buy_btn">Buy Now</button>
+  </div>
+  <div class="products text-center col-lg-3 col-md-4 col-12 pb-5">
+    <img src="./public/images/featured-4.jpg" class="img-fluid mb-4"  alt="">
+    <div class="star">
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+
+    </div>
+    <h5>Sports Boots</h5>
+    <h4>$92.00</h4>
+    <button class="buy-btn" id="buy_btn">Buy Now</button>
+  </div>
+  <div class="products text-center col-lg-3 col-md-4 col-12 pb-5">
+    <img src="./public/images/featured-5.jpg" class="img-fluid mb-4"  alt="">
+    <div class="star">
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+
+    </div>
+    <h5>Sports Boots</h5>
+    <h4>$92.00</h4>
+    <button class="buy-btn" id="buy_btn">Buy Now</button>
+  </div>
+  <div class="products text-center col-lg-3 col-md-4 col-12 pb-5">
+    <img src="./public/images/featured-6.jpg" class="img-fluid mb-4"  alt="">
+    <div class="star">
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+
+    </div>
+    <h5>Sports Boots</h5>
+    <h4>$92.00</h4>
+    <button class="buy-btn" id="buy_btn">Buy Now</button>
+  </div>
+  
+  <div class="products text-center col-lg-3 col-md-4 col-12 pb-5">
+    <img src="./public/images/featured-8.jpg" class="img-fluid mb-4"  alt="">
+    <div class="star">
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+          
+
+    </div>
+    <h5>Sports Boots</h5>
+    <h4>$92.00</h4>
+    <button class="buy-btn" id="buy_btn">Buy Now</button>
+  </div>
+  <div class="products text-center col-lg-3 col-md-4 col-12 pb-5">
+    <img src="./public/images/featured-10.jpeg" class="img-fluid mb-4"  alt="">
+    <div class="star">
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star'></i>
+
+    </div>
+    <h5>Sports Boots</h5>
+    <h4>$92.00</h4>
+    <button class="buy-btn" id="buy_btn">Buy Now</button>
+  </div>
+  <div class="products text-center col-lg-3 col-md-4 col-12 pb-5">
+    <img src="./public/images/featured-9.jpg" class="img-fluid mb-4"  alt="">
+    <div class="star">
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+
+    </div>
+    <h5>Sports Boots</h5>
+    <h4>$92.00</h4>
+    <button class="buy-btn" id="buy_btn">Buy Now</button>
+  </div>
+
+</div>
+</section>
+
+
+<!-- small slider to slide products in featured post -->
+
+<div class="slider">
+  <div class="boxes text-center">
+    <div class="box">
+      <img src="./public/images/s-1.png" alt="" class="dis">
+      <h6>Smart watch</h6>
+      <div class="rate_cart">
+        <div class="star">
+          <i class='bx bxs-star text-warning'></i>
+          <i class='bx bxs-star text-warning'></i>
+          <i class='bx bxs-star text-warning'></i>
+          <i class='bx bxs-star text-warning'></i>
+          <i class='bx bxs-star'></i>
+    
+        </div>
+        <button class="bi bi-search" >  View More</button>
+      </div>
+    </div>
+    <div class="box">
+      <img src="./public/images/s-2.png" alt="" class="dis">
+      <h6>Realme Watch</h6>
+      <div class="rate_cart">
+        <div class="star">
+          <i class='bx bxs-star text-warning'></i>
+          <i class='bx bxs-star text-warning'></i>
+          <i class='bx bxs-star text-warning'></i>
+          <i class='bx bxs-star text-warning'></i>
+          <i class='bx bxs-star'></i>
+    
+        </div>
+        <button class="bi bi-search" > View Moret</button>
+      </div>
+    </div>
+    <div class="box">
+      <img src="./public/images/s-3.png" alt="" class="dis">
+      <h6>Realme Pro Watch</h6>
+      <div class="rate_cart">
+        <div class="star">
+          <i class='bx bxs-star text-warning'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+    
+        </div>
+        <button class="bi bi-search" > View More</button>
+      </div>
+    </div>
+    <div class="box">
+      <img src="./public/images/s-4.png" alt="" class="dis">
+      <h6>Brown Hoodie</h6>
+      <div class="rate_cart">
+        <div class="star">
+          <i class='bx bxs-star text-warning'></i>
+          <i class='bx bxs-star text-warning'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+    
+        </div>
+        <button class="bi bi-search" > View More</button>
+      </div>
+    </div>
+    <div class="box">
+      <img src="./public/images/s-5.png" alt="" class="dis">
+      <h6>Black Hoodie</h6>
+      <div class="rate_cart">
+        <div class="star">
+          <i class='bx bxs-star text-warning'></i>
+          <i class='bx bxs-star text-warning'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+    
+        </div>
+        <button class="bi bi-search" > View More</button>
+      </div>
+    </div>
+    <div class="box">
+      <img src="./public/images/s-6.png" alt="" class="dis">
+      <h6>White Hoodie</h6>
+      <div class="rate_cart">
+        <div class="star">
+          <i class='bx bxs-star text-warning'></i>
+          <i class='bx bxs-star text-warning'></i>
+          <i class='bx bxs-star text-warning'></i>
+          <i class='bx bxs-star text-warning'></i>
+          <i class='bx bxs-star'></i>
+   
+    
+        </div>
+        <button class="bi bi-search" > View More</button>
+      </div>
+    </div>
+    <div class="box">
+      <img src="./public/images/s-7.png" alt="" class="dis">
+      <h6>Spark sandles</h6>
+      <div class="rate_cart">
+        <div class="star">
+          <i class='bx bxs-star text-warning'></i>
+          <i class='bx bxs-star text-warning'></i>
+          <i class='bx bxs-star text-warning'></i>
+          <i class='bx bxs-star text-warning'></i>
+          <i class='bx bxs-star'></i>
+    
+        </div>
+        <button class="bi bi-search" > View More</button>
+      </div>
+  
+    </div>
+    <div class="box">
+      <img src="./public/images/s-8.png" alt="" class="dis">
+      <h6>Spark new sandles</h6>
+      <div class="rate_cart">
+        <div class="star">
+          <i class='bx bxs-star text-warning'></i>
+          <i class='bx bxs-star text-warning'></i>
+          <i class='bx bxs-star text-warning'></i>
+          <i class='bx bxs-star text-warning'></i>
+          <i class='bx bxs-star'></i>
+    
+        </div>
+        <button class="bi bi-search" > View More</button>
+      </div>
+  
+    </div>
+    
+    <div class="box ">
+      <img src="./public/images/s-10.jpeg" alt="" class="dis">
+      <h6>Nike Jacket</h6>
+      <div class="rate_cart">
+        <div class="star">
+          <i class='bx bxs-star text-warning'></i>
+          <i class='bx bxs-star text-warning'></i>
+          <i class='bx bxs-star text-warning'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+    
+        </div>
+        <button class="bi bi-search" > View More</button>
+      </div>
+  
+    </div>
+   
+  </div>
+  <div class="control text-black">
+    <i class='bx bxs-left-arrow'></i>
+    <i class='bx bxs-right-arrow' ></i>
+  </div>
+</div>
+
+<div  id="Add">
+  <div class="container">
+    <h4>MID SEASON'S SALE</h4>
+    <h1>Shop Collection <br>Upto 40% OFF</h1>
+    <button class="text-uppercase">Shop Now</button>
+  </div>
+
+</div>
+
+<section id="Clothes" class="my-5">
+  <div class="container text-center mt-5 py-3">
+    <h3>Premium T-shirts</h3>
+    <hr class="hr_4 mx-auto">
+    <p>Here you can check our premium products with fair price of shop.</p>
+  </div>
+<div class="row mx-auto container-fluid">
+  <div class="products text-center col-lg-3 col-md-4 col-12 pb-5">
+    <img src="./public/images/clothes-1.jpg" class="img-fluid mb-4"  alt="">
+    <div class="star ">
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star'></i>
+
+    </div>
+    <h5>Premium T-shirt</h5>
+    <h4>$92.00</h4>
+    <button class="buy-btn" id="buy_btn">Buy Now</button>
+  </div>
+  <div class="products text-center col-lg-3 col-md-4 col-12 pb-5">
+    <img src="./public/images/clothes-2.jpg" class="img-fluid mb-4"  alt="">
+    <div class="star">
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+
+    </div>
+    <h5>Premium T-shirt</h5>
+    <h4>$92.00</h4>
+    <button class="buy-btn" id="buy_btn">Buy Now</button>
+  </div>
+  <div class="products text-center col-lg-3 col-md-4 col-12 pb-5">
+    <img src="./public/images/clothes-3.jpg" class="img-fluid mb-4"  alt="">
+    <div class="star">
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+
+    </div>
+    <h5>Premium T-shirt</h5>
+    <h4>$92.00</h4>
+    <button class="buy-btn" id="buy_btn">Buy Now</button>
+  </div>
+  <div class="products text-center col-lg-3 col-md-4 col-12 pb-5">
+    <img src="./public/images/clothes-4.jpg" class="img-fluid mb-4"  alt="">
+    <div class="star">
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star '></i>
+
+    </div>
+    <h5>Premium T-shirt</h5>
+    <h4>$92.00</h4>
+    <button class="buy-btn" id="buy_btn">Buy Now</button>
+  </div>
+  
+
+</div>
+</section>
+
+<section id="Watches" class="my-5">
+  <div class="container text-center mt-5 py-3">
+    <h3>Premium Watches</h3>
+    <hr class="hr_4 mx-auto">
+    <p>Here you can check our premium products with fair price of shop.</p>
+  </div>
+<div class="row mx-auto container-fluid">
+  <div class="products text-center col-lg-3 col-md-4 col-12 pb-5">
+    <img src="./public/images/watch-1.jpg" class="img-fluid mb-4"  alt="">
+    <div class="star ">
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star'></i>
+
+    </div>
+    <h5>Premium Watches</h5>
+    <h4>$92.00</h4>
+    <button class="buy-btn" id="buy_btn">Buy Now</button>
+  </div>
+  <div class="products text-center col-lg-3 col-md-4 col-12 pb-5">
+    <img src="./public/images/watch-2.jpg" class="img-fluid mb-4"  alt="">
+    <div class="star">
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+
+    </div>
+    <h5>Premium Watches</h5>
+    <h4>$92.00</h4>
+    <button class="buy-btn" id="buy_btn">Buy Now</button>
+  </div>
+  <div class="products text-center col-lg-3 col-md-4 col-12 pb-5">
+    <img src="./public/images/watch-3.jpg" class="img-fluid mb-4"  alt="">
+    <div class="star">
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+
+    </div>
+    <h5>Premium Watches</h5>
+    <h4>$92.00</h4>
+    <button class="buy-btn" id="buy_btn">Buy Now</button>
+  </div>
+  <div class="products text-center col-lg-3 col-md-4 col-12 pb-5">
+    <img src="./public/images/watch-4.jpg" class="img-fluid mb-4"  alt="">
+    <div class="star">
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star text-warning'></i>
+      <i class='bx bxs-star '></i>
+
+    </div>
+    <h5>Premium Watches</h5>
+    <h4>$92.00</h4>
+    <button class="buy-btn" id="buy_btn">Buy Now</button>
+  </div>
+  
+
+</div>
+</section>
+
+   
+    
+  
+      <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  
+<script>
+  let left= document.getElementsByClassName('bxs-left-arrow')[0];
+let right=document.getElementsByClassName('bxs-right-arrow')[0];
+let boxes=document.getElementsByClassName('boxes')[0];
+
+left.addEventListener('click', () => {
+boxes.scrollLeft -= 140;
+});
+right.addEventListener('click', () => {
+boxes.scrollLeft += 140;
+});
+
+</script>
+  
+</body>
+
+</html>

@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background-color: rgb(218, 218, 218);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+.navbar-nav .nav-item button{
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  height: 46px;
+  width: 120px;
+  transform: translatey(0);
+  transition: .5s;
+}
+.navbar-nav .nav-item button:hover{
+  transform: translatey(-10px);
+  transition: .5s;
+  background-color: red;
+  color: black;
+}
+.navbar .navbar-toggler{
+  font-size: 10px;
+  
+}
+.carosal_slide{
+  margin-top: 5%;
+}
+.carosal{
+  height: 40vh;
+  width: 100%;
+}
+.photos img{
+  width: 12%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+
+#new .one{
+  position: relative;
+}
+
+#new .one .details{
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: .5s;
+  opacity: 0;
+  padding-right: 72%;
+  padding-bottom: 100%;
+  transform: translatex(0);
+  margin-top: 10px;
+ 
+}
+#new .one .details:hover{
+  opacity: 1;
+  transform: translatex(20px);
+  transition: .4s;
+}
+#new .one .details h2{
+  color: black;
+}
+#new .one .details button{
+  border: none;
+  width: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 700;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.hr_4 {
+  width: 200px;
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+#buy_btn{
+  border: none;
+  padding: 10px;
+  color: white;
+  font-weight: 500;
+  background-color: black;
+  width: 200px;
+  border-radius: 3px;
+}
+#featured .row .products img{
+  
+  width:  200px;
+    height: 200px;
+    object-fit: cover;
+}
+#featured .container h3{
+  font-weight: 600;
+  font-family: 'Playfair Display', serif;
+
+}
+#featured .container p{
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+#featured .row .products  button:hover{
+background-color: orange;
+color: black;  
+transition: .4s;
+}
+
+.slider{
+  border-radius: 5px;
+  background-color: black;
+ 
+}
+
+.boxes{
+  width: 100%;
+  height: 300px;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  overflow: auto;
+  scroll-behavior: smooth;
+  transition: 2s;
+  border-radius: 30px;
+ 
+ 
+}
+.boxes::-webkit-scrollbar{
+  display: none;
+
+}
+.boxes .box{
+  position: relative;
+  min-width: 200px;
+  min-height: 200px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-right: 13px;
+  background: rgb(255, 255, 255);
+  border-radius: 50px 10px 10px 10px;
+  transform: translatey(0px);
+  transition: .3s;
+}
+.boxes .box:hover{
+  transform: translatey(-10px);
+  transition: .5s;
+}
+.boxes .box:nth-last-child(1){
+  margin-right: 0px;
+}
+.boxes .box .dis{
+  
+  width: 200px;
+  padding: 5px;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  
+}
+
+.rate_cart button{
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 3px;
+  font-size: 13px;
+  background-color: black;
+  color: white;
+}
+.rate_cart button:hover{
+background-color: orange;
+  color: black;
+  transition: .2s;
+}
+.control{
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.control i{
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#Add{
+  background-image: url('/public/images/add_section.jpg');
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+#Add h4{
+  font-weight: 600;
+  font-size:20px ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#Add h1{
+  font-weight: bold;
+  margin-bottom: 20px;
+
+}
+#Add button{
+  background-color: rgb(233, 103, 55);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  font-weight: 600;
+  width: 130px;
+  font-size: 13px;
+  font-family: 'Times New Roman', Times, serif;
+}
+#Clothes {
+  padding-top: 2%;
+}
+#Clothes .row .products button{
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 3px;
+  font-size: 13px;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+#Clothes .row .products button:hover{
+background-color: orange;
+  color: black;
+  transition: .2s;
+}
+#Clothes h3{
+  font-weight: 600;
+  font-family: 'Playfair Display', serif;
+
+}
+#Clothes p{
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+#Watches {
+  padding-top: 2%;
+}
+#Watches .row .products button{
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 3px;
+  font-size: 13px;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+#Watches .row .products button:hover{
+background-color: orange;
+  color: black;
+  transition: .2s;
+}
+#Watches h3{
+  font-weight: 600;
+  font-family: 'Playfair Display', serif;
+
+}
+#Watches p{
+  font-weight: 500;
+  padding-bottom: 20px;
+}
