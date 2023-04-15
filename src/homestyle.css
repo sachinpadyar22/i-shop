@@ -298,3 +298,29 @@ background-color: orange;
   font-weight: 500;
   padding-bottom: 20px;
 }
+
+@media (min-width:370px){
+  .carosal_slide{
+    margin-top: 20%;
+  }
+}
+@media (min-width:550px){
+  .carosal_slide{
+    margin-top: 10%;
+  }
+}
+@media (min-width:800px){
+  .carosal_slide{
+    margin-top: 8%;
+  }
+}
+@media (min-width:1200px){
+  .carosal_slide{
+    margin-top: 6%;
+  }
+}
+@media (min-width:1500px){
+  .carosal_slide{
+    margin-top: 5%;
+  }
+}
