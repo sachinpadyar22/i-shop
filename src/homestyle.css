@@ -329,3 +329,14 @@ background-color: orange;
     transition: .3s;
   }
 }
+@media (max-width:990px){
+  #Nav-id{
+    margin-left:40% ;
+    margin-top: 20px;
+  }
+
+  .navbar-collapse{
+    text-align: center;
+  }
+}
+
