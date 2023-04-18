@@ -341,8 +341,17 @@ background-color: orange;
 .main_footer .container .row .col h3{
   font-family: 'Jost', sans-serif;
 }
+#socials_icons i{
+  transform: translateY(0);
+  transition: .4s;
+  background-color: white;
+  color: black;
+}
 #socials_icons i:hover{
-
+  transform: translateY(10px);
+  transition: .4s;
+  color: white;
+  background-color: black;
 }
 #Images{
   margin-top: 15px;
